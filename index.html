@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>Login Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+			/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 0%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+		</style>
+    </head>
+    <body>
+	   <h1>Login Form</h1>
+        <div class="imgcontainer">
+        <a><img src="https://scontent.fsgn2-5.fna.fbcdn.net/v/t1.0-9/35189853_2076230709311065_3947220011839389696_o.png?_nc_cat=102&ccb=2&_nc_sid=09cbfe&_nc_ohc=Kgq1ibAJe6cAX_p_J2P&_nc_ht=scontent.fsgn2-5.fna&oh=c1c1c492d80a7986b70fdda5473b0b19&oe=600578A6" alt="Avatar" class="avatar"></a>
+    
+         </div>
+
+        <main>
+           <form action="http://127.0.0.1:10000" method="post">
+  
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" id="Username" name="Username" placeholder="Enter Username"><br><br>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" id="Password" name="Password" placeholder="Enter Password"><br><br>
+
+    <button type="submit">Login</button>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+  </div>
+</form>
+            </div>
+            </div>
+        </main>
+    </body>
+</html>
